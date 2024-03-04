@@ -19,18 +19,20 @@
 		display: flex;
 		align-items: centre;
 		background-color: black;
+		height: 600px;
 		color: white;
 		padding: 25px 15px;
 	}
 	.logo{
 	
 		width: 150px;
-		height:auto;
-		margin-right: 80px;
-		margin-left: 50px;
+		height:50px;
+		margin-right: 70px;
+		margin-left: 40px;
 
 	}
 	.nav-links {
+		height:50px;
         align-items: center;
         display: flex;
     }
@@ -43,6 +45,7 @@
 	    font-size: 20px;
 		/* text-transform: uppercase; */
 	}
+
 </style>
 
 
