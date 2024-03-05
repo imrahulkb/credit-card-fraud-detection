@@ -19,7 +19,7 @@
 		display: flex;
 		align-items: centre;
 		background-color: black;
-		height: 600px;
+		/* height: 50px; */
 		color: white;
 		padding: 25px 15px;
 	}
