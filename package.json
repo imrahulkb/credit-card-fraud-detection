@@ -24,6 +24,7 @@
   "dependencies": {
     "@fontsource/montserrat": "^5.0.16",
     "@fontsource/mulish": "^5.0.16",
-    "sirv-cli": "^2.0.0"
+    "sirv-cli": "^2.0.0",
+    "svelte-spa-router": "^4.0.1"
   }
 }

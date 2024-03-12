@@ -2,13 +2,14 @@
 //   import '../app.css';
   import '@fontsource/montserrat'
   import '@fontsource/mulish'
+
 </script>
 
 <nav class="navbar"> 
 	<img src="/images/logo.png" alt="logo" class="logo">
 	<div class="nav-links">
 		<a href="/">Home</a>
-		<a href="/about">About</a>
+		<!-- <a href="/about">About</a> -->
 		<a href="/dashboard">Dashboard</a>
 	</div>
 
