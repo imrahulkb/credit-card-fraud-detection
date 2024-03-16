@@ -40,11 +40,11 @@
   <Navbar />
   
   <style>
-    body {
+    /* body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 20px;
-    }
+    } */
   
     header {
       background-color: #f0f0f0;

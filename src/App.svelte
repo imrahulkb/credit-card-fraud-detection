@@ -3,7 +3,9 @@
 	// import '../app.css';
 	import Navbar from './Navbar.svelte';
 	import Home from './Home.svelte';
+	import Dash from './Dash.svelte';
 	// import Dashboard from './routes/Dashboard.svelte';
+	// import Dashboard from './Dashboard.svelte';
 	import '@fontsource/montserrat'
 	import '@fontsource/mulish'
 	// import { Router } from 'svelte-spa-router';
@@ -22,10 +24,9 @@
 
 	<Navbar/>
 	<Home />
+	<Dash/>
 	<!-- <Dashboard/> -->
-	<!-- <h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p> -->
-</main>
+	</main>
 
 <style>
 	main {
