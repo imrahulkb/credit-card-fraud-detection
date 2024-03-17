@@ -1,39 +1,15 @@
 <script>
-//   import '../app.css';
   import '@fontsource/montserrat'
   import '@fontsource/mulish'
-  import Dash from './Dash.svelte';
-      import page from "page.js";
-
-//   function navigate(ctx, next){
-// 	console.log('Navigate to:$(ctx.path}');
-//   }
-//   page("/",navigate);
-//   page("/dash",navigate);
-//   page.start();
-
-//     import Dashboard from './routes/Dashboard.svelte';
-//   	import { Router } from 'svelte-spa-router';
-//   const routes={
-// 		'/Dashboard/*':Dashboard,
-// 	}
+  import {Link} from 'svelte-routing'
   </script>
-
-
-	<!-- <Router {routes}/> -->
-	
-
 
 <nav class="navbar"> 
 	<img src="/images/logo.png" alt="logo" class="logo">
 	<div class="nav-links">
-		<a href="/">Home</a>
-		
-        <a href="/dash">Dashboard</a>
-    
-
+		<Link class='a' to="/">Home</Link>
+		<Link class='a' to="/dash">Dashboad</Link>
 	</div>
-
 </nav>
 <style>
 	.navbar{
