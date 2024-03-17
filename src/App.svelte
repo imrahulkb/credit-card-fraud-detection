@@ -1,32 +1,17 @@
 <script>
-	// export let name;
-	// import '../app.css';
 	import Navbar from './Navbar.svelte';
 	import Home from './Home.svelte';
 	import Dash from './Dash.svelte';
-	// import Dashboard from './routes/Dashboard.svelte';
-	// import Dashboard from './Dashboard.svelte';
 	import '@fontsource/montserrat'
 	import '@fontsource/mulish'
-	// import { Router } from 'svelte-spa-router';
-
-
-	// const routes={
-	// 	'/Dashboard/*':Dashboard,
-	// }
-	
+	import { Router,Route } from 'svelte-routing';
 </script>
 
-
-<main>
-	<!-- <Router {routes}/> -->
-	
-
-	<Navbar/>
-	<Home />
-	<Dash/>
-	<!-- <Dashboard/> -->
-	</main>
+<Router>
+	<Navbar /> 
+	<Route path="/" component={Home} />
+	<Route path="/dash" component={Dash} />
+  </Router>
 
 <style>
 	main {

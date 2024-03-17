@@ -37,8 +37,6 @@
     ];
   }
 </script>
-<Navbar />
-
 <style>
   header {
     background-color: #f0f0f0;
