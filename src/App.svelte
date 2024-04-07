@@ -2,6 +2,7 @@
 	import Navbar from './Navbar.svelte';
 	import Home from './Home.svelte';
 	import Dash from './Dash.svelte';
+	import UploadCreditData from './Upload_credit_data.svelte';
 	import '@fontsource/montserrat'
 	import '@fontsource/mulish'
 	import { Router,Route } from 'svelte-routing';
@@ -11,16 +12,16 @@
 	<Navbar /> 
 	<Route path="/" component={Home} />
 	<Route path="/dash" component={Dash} />
+	<Route path="/Upload_credit_data" componenet={UploadCreditData}/>
   </Router>
 
 <style>
-	main {
+	/* main {
 		text-align: center;
-		/* padding: 1em; */
+		padding: 1em;
 		max-width: 240px;
 		margin: 0 auto;
-		/* background-color: black; */
-		/* background-size: cover; */
+		
 	}
 
 	
@@ -29,5 +30,5 @@
 		main {
 			max-width: none;
 		}
-	}
+	} */
 </style>
