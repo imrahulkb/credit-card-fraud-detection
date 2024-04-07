@@ -2,6 +2,7 @@
 	import Navbar from './Navbar.svelte';
 	import Home from './Home.svelte';
 	import Dash from './Dash.svelte';
+	import Reports from './Reports.svelte';
 	import UploadCreditData from './Upload_credit_data.svelte';
 	import '@fontsource/montserrat'
 	import '@fontsource/mulish'
@@ -12,6 +13,7 @@
 	<Navbar /> 
 	<Route path="/" component={Home} />
 	<Route path="/dash" component={Dash} />
+	<Route path="/reprts" component={Reports} />
 	<Route path="/Upload_credit_data" componenet={UploadCreditData}/>
   </Router>
 
